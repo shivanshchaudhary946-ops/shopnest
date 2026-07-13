@@ -1,6 +1,8 @@
-function app() {
+import Home from './pages/home';
+
+function App() {
   return(
-    <h1>welcome to shopnest</h1>
+    <Home/>
   );
 }
-export default app;
+export default App;
