@@ -12,8 +12,12 @@ function Products() {
         {products.map((product) => (
           <ProductCard
             key={product.id}
+            image={product.image}
             name={product.name}
+            category={product.category}
             price={product.price}
+            
+            
           />
         ))}
       </div>
