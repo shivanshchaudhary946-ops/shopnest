@@ -1,14 +1,12 @@
 import Layout from "../components/Layout/Layout";
-import Hero from "../components/Hero/Hero";
 import Products from "../components/Products/Products";
 
-function Home() {
+function ProductPage() {
   return (
     <Layout>
-      <Hero />
       <Products />
     </Layout>
   );
 }
 
-export default Home;
+export default ProductPage;

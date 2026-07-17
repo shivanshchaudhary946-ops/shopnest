@@ -1,0 +1,27 @@
+.category-filter{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:30px 0;
+    flex-wrap:wrap;
+}
+
+.category-filter button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:#f1f1f1;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s;
+}
+
+.category-filter button:hover{
+    background:#2563eb;
+    color:white;
+}
+
+.active-category{
+    background:#2563eb !important;
+    color:white;
+}
